@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A4CFFFBF-41E9-48D3-8E85-DBE0D10594D2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6595539EF74C05F5CB5D2E39D53F7D8EB87A1971</key>
+		<string>https://github.com/DanielKoehler/Ionicons.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6595539EF74C05F5CB5D2E39D53F7D8EB87A1971</key>
+		<string>Ionicons/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DanielKoehler/Ionicons.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6595539EF74C05F5CB5D2E39D53F7D8EB87A1971</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6595539EF74C05F5CB5D2E39D53F7D8EB87A1971</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Ionicons</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ha8-0y-j0g">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Timetabler Navigation View Controller-->
+        <scene sceneID="IzE-en-kRt">
+            <objects>
+                <navigationController storyboardIdentifier="mainNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ha8-0y-j0g" customClass="TimetablerNavigationViewController" customModule="Timetabler" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wdx-kL-vy0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="FH0-wv-N5y" kind="relationship" relationship="rootViewController" id="vvH-52-MGc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQJ-z3-5S6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-128" y="384"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RIv-O4-9BL">
+            <objects>
+                <viewController id="FH0-wv-N5y" customClass="ViewController" customModule="Timetabler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cW8-Kl-fCR"/>
+                        <viewControllerLayoutGuide type="bottom" id="S7h-AW-zeP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Py-In-Rme">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Mc9-X7-hgm"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="heG-WG-gk8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="572" y="384"/>
+        </scene>
+    </scenes>
+</document>

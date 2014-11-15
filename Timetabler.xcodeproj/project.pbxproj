@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C11F9A11A068A9900C069D1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C11F9A01A068A9900C069D1 /* MapKit.framework */; };
+		4C22BE2C1A0661E1003877B0 /* default.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4C22BE2B1A0661E1003877B0 /* default.gpx */; };
+		4C28A7C61A058A4C006257FA /* EventStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C28A7C51A058A4C006257FA /* EventStatsView.swift */; };
+		4C28A7C81A05BFD5006257FA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C28A7C71A05BFD5006257FA /* SettingsViewController.swift */; };
+		4C2A949A1A04004600B7B86D /* TimetablerStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2A94991A04004600B7B86D /* TimetablerStructures.swift */; };
+		4C38C4EF19EFD43200E6BA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38C4EE19EFD43200E6BA05 /* AppDelegate.swift */; };
+		4C38C4F419EFD43200E6BA05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38C4F319EFD43200E6BA05 /* ViewController.swift */; };
+		4C38C50819EFD43200E6BA05 /* TimetablerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38C50719EFD43200E6BA05 /* TimetablerTests.swift */; };
+		4C3AADC51A162C1E000DB1E8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AADC41A162C1E000DB1E8 /* MapViewController.swift */; };
+		4C5BE7201A03A59400F574F7 /* EventViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5BE71E1A03A59400F574F7 /* EventViewCell.swift */; };
+		4C5BE7211A03A59400F574F7 /* EventViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5BE71F1A03A59400F574F7 /* EventViewCell.xib */; };
+		4C661ED51A161F9600E27C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C661ED41A161F9600E27C75 /* Main.storyboard */; };
+		4C69EA701A01667A00D6C385 /* TimetablerNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69EA6F1A01667A00D6C385 /* TimetablerNavigationViewController.swift */; };
+		4C69EA7B1A016CAB00D6C385 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C69EA7A1A016CAB00D6C385 /* Images.xcassets */; };
+		4C6C4F281A02CBDA007267BB /* EventProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C4F271A02CBDA007267BB /* EventProgressView.swift */; };
+		4C80EFE01A161292005703C1 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4C80EFDA1A161207005703C1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4CB90A291A030017002E91B9 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB90A281A030017002E91B9 /* Launch Screen.xib */; };
+		4CCA850B1A067C48001EF6F5 /* Ionicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCA85081A067C48001EF6F5 /* Ionicon.swift */; };
+		4CCA850C1A067C48001EF6F5 /* Ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCA85091A067C48001EF6F5 /* Ionicons.swift */; };
+		4CCA850D1A067C48001EF6F5 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CCA850A1A067C48001EF6F5 /* ionicons.ttf */; };
+		4CDA22CE19FE7EF6007E962F /* Timetabler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA22CD19FE7EF6007E962F /* Timetabler.swift */; };
+		4CDA22D219FEA898007E962F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA22D119FEA898007E962F /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C38C50219EFD43200E6BA05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C38C4E119EFD43100E6BA05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C38C4E819EFD43200E6BA05;
+			remoteInfo = Timetabler;
+		};
+		4C80EFD91A161207005703C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C80EFD41A161207005703C1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		4C80EFDB1A161207005703C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C80EFD41A161207005703C1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		4C80EFDD1A161257005703C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C80EFD41A161207005703C1 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C69EA901A016F7300D6C385 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C80EFDF1A16126F005703C1 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C80EFE01A161292005703C1 /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C11F9A01A068A9900C069D1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4C22BE281A065D1F003877B0 /* Timetabler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timetabler-Prefix.pch"; sourceTree = "<group>"; };
+		4C22BE2B1A0661E1003877B0 /* default.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = default.gpx; path = ../default.gpx; sourceTree = "<group>"; };
+		4C28A7C51A058A4C006257FA /* EventStatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventStatsView.swift; sourceTree = "<group>"; };
+		4C28A7C71A05BFD5006257FA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4C2A94991A04004600B7B86D /* TimetablerStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetablerStructures.swift; sourceTree = "<group>"; };
+		4C38C4E919EFD43200E6BA05 /* Timetabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timetabler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C38C4ED19EFD43200E6BA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C38C4EE19EFD43200E6BA05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C38C4F319EFD43200E6BA05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C38C50119EFD43200E6BA05 /* TimetablerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimetablerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C38C50619EFD43200E6BA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C38C50719EFD43200E6BA05 /* TimetablerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetablerTests.swift; sourceTree = "<group>"; };
+		4C3AADC41A162C1E000DB1E8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4C5BE71E1A03A59400F574F7 /* EventViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewCell.swift; sourceTree = "<group>"; };
+		4C5BE71F1A03A59400F574F7 /* EventViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventViewCell.xib; sourceTree = "<group>"; };
+		4C661ED41A161F9600E27C75 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4C69EA6F1A01667A00D6C385 /* TimetablerNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetablerNavigationViewController.swift; sourceTree = "<group>"; };
+		4C69EA7A1A016CAB00D6C385 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C6C4F271A02CBDA007267BB /* EventProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProgressView.swift; sourceTree = "<group>"; };
+		4C80EFD41A161207005703C1 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		4CB90A281A030017002E91B9 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		4CCA85081A067C48001EF6F5 /* Ionicon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ionicon.swift; path = Timetabler/Ionicon.swift; sourceTree = SOURCE_ROOT; };
+		4CCA85091A067C48001EF6F5 /* Ionicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ionicons.swift; path = Timetabler/Ionicons.swift; sourceTree = SOURCE_ROOT; };
+		4CCA850A1A067C48001EF6F5 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ionicons.ttf; path = Timetabler/ionicons.ttf; sourceTree = SOURCE_ROOT; };
+		4CDA22CD19FE7EF6007E962F /* Timetabler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timetabler.swift; sourceTree = "<group>"; };
+		4CDA22D119FEA898007E962F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C38C4E619EFD43200E6BA05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C11F9A11A068A9900C069D1 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C38C4FE19EFD43200E6BA05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C38C4E019EFD43100E6BA05 = {
+			isa = PBXGroup;
+			children = (
+				4C11F9A01A068A9900C069D1 /* MapKit.framework */,
+				4C80EFD41A161207005703C1 /* Alamofire.xcodeproj */,
+				4C38C4EB19EFD43200E6BA05 /* Timetabler */,
+				4C38C50419EFD43200E6BA05 /* TimetablerTests */,
+				4C38C4EA19EFD43200E6BA05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C38C4EA19EFD43200E6BA05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C38C4E919EFD43200E6BA05 /* Timetabler.app */,
+				4C38C50119EFD43200E6BA05 /* TimetablerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C38C4EB19EFD43200E6BA05 /* Timetabler */ = {
+			isa = PBXGroup;
+			children = (
+				4C22BE2B1A0661E1003877B0 /* default.gpx */,
+				4CCA84F81A067BCF001EF6F5 /* Ionicons */,
+				4C38C4F319EFD43200E6BA05 /* ViewController.swift */,
+				4CDA22D119FEA898007E962F /* LoginViewController.swift */,
+				4C28A7C71A05BFD5006257FA /* SettingsViewController.swift */,
+				4C3AADC41A162C1E000DB1E8 /* MapViewController.swift */,
+				4C69EA7A1A016CAB00D6C385 /* Images.xcassets */,
+				4C6C4F271A02CBDA007267BB /* EventProgressView.swift */,
+				4C28A7C51A058A4C006257FA /* EventStatsView.swift */,
+				4CDA22CD19FE7EF6007E962F /* Timetabler.swift */,
+				4C5BE71E1A03A59400F574F7 /* EventViewCell.swift */,
+				4C5BE71F1A03A59400F574F7 /* EventViewCell.xib */,
+				4CB90A281A030017002E91B9 /* Launch Screen.xib */,
+				4C661ED41A161F9600E27C75 /* Main.storyboard */,
+				4C38C4EC19EFD43200E6BA05 /* Supporting Files */,
+			);
+			path = Timetabler;
+			sourceTree = "<group>";
+		};
+		4C38C4EC19EFD43200E6BA05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C38C4EE19EFD43200E6BA05 /* AppDelegate.swift */,
+				4C69EA6F1A01667A00D6C385 /* TimetablerNavigationViewController.swift */,
+				4C2A94991A04004600B7B86D /* TimetablerStructures.swift */,
+				4C38C4ED19EFD43200E6BA05 /* Info.plist */,
+				4C22BE281A065D1F003877B0 /* Timetabler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C38C50419EFD43200E6BA05 /* TimetablerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C38C50719EFD43200E6BA05 /* TimetablerTests.swift */,
+				4C38C50519EFD43200E6BA05 /* Supporting Files */,
+			);
+			path = TimetablerTests;
+			sourceTree = "<group>";
+		};
+		4C38C50519EFD43200E6BA05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C38C50619EFD43200E6BA05 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C80EFD51A161207005703C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C80EFDA1A161207005703C1 /* Alamofire.framework */,
+				4C80EFDC1A161207005703C1 /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCA84F81A067BCF001EF6F5 /* Ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				4CCA85081A067C48001EF6F5 /* Ionicon.swift */,
+				4CCA85091A067C48001EF6F5 /* Ionicons.swift */,
+				4CCA850A1A067C48001EF6F5 /* ionicons.ttf */,
+			);
+			name = Ionicons;
+			path = ../Ionicons/Ionicons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C38C4E819EFD43200E6BA05 /* Timetabler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C38C50B19EFD43200E6BA05 /* Build configuration list for PBXNativeTarget "Timetabler" */;
+			buildPhases = (
+				4C38C4E519EFD43200E6BA05 /* Sources */,
+				4C38C4E619EFD43200E6BA05 /* Frameworks */,
+				4C38C4E719EFD43200E6BA05 /* Resources */,
+				4C69EA901A016F7300D6C385 /* Embed Frameworks */,
+				4C80EFDF1A16126F005703C1 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C80EFDE1A161257005703C1 /* PBXTargetDependency */,
+			);
+			name = Timetabler;
+			productName = Timetabler;
+			productReference = 4C38C4E919EFD43200E6BA05 /* Timetabler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C38C50019EFD43200E6BA05 /* TimetablerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C38C50E19EFD43200E6BA05 /* Build configuration list for PBXNativeTarget "TimetablerTests" */;
+			buildPhases = (
+				4C38C4FD19EFD43200E6BA05 /* Sources */,
+				4C38C4FE19EFD43200E6BA05 /* Frameworks */,
+				4C38C4FF19EFD43200E6BA05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C38C50319EFD43200E6BA05 /* PBXTargetDependency */,
+			);
+			name = TimetablerTests;
+			productName = TimetablerTests;
+			productReference = 4C38C50119EFD43200E6BA05 /* TimetablerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C38C4E119EFD43100E6BA05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = DanielKoehler;
+				TargetAttributes = {
+					4C38C4E819EFD43200E6BA05 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = NQB6785NRG;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4C38C50019EFD43200E6BA05 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = NQB6785NRG;
+						TestTargetID = 4C38C4E819EFD43200E6BA05;
+					};
+				};
+			};
+			buildConfigurationList = 4C38C4E419EFD43100E6BA05 /* Build configuration list for PBXProject "Timetabler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C38C4E019EFD43100E6BA05;
+			productRefGroup = 4C38C4EA19EFD43200E6BA05 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4C80EFD51A161207005703C1 /* Products */;
+					ProjectRef = 4C80EFD41A161207005703C1 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4C38C4E819EFD43200E6BA05 /* Timetabler */,
+				4C38C50019EFD43200E6BA05 /* TimetablerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4C80EFDA1A161207005703C1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 4C80EFD91A161207005703C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C80EFDC1A161207005703C1 /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = 4C80EFDB1A161207005703C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C38C4E719EFD43200E6BA05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCA850D1A067C48001EF6F5 /* ionicons.ttf in Resources */,
+				4C69EA7B1A016CAB00D6C385 /* Images.xcassets in Resources */,
+				4C5BE7211A03A59400F574F7 /* EventViewCell.xib in Resources */,
+				4C661ED51A161F9600E27C75 /* Main.storyboard in Resources */,
+				4CB90A291A030017002E91B9 /* Launch Screen.xib in Resources */,
+				4C22BE2C1A0661E1003877B0 /* default.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C38C4FF19EFD43200E6BA05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C38C4E519EFD43200E6BA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6C4F281A02CBDA007267BB /* EventProgressView.swift in Sources */,
+				4CDA22CE19FE7EF6007E962F /* Timetabler.swift in Sources */,
+				4C28A7C81A05BFD5006257FA /* SettingsViewController.swift in Sources */,
+				4CCA850C1A067C48001EF6F5 /* Ionicons.swift in Sources */,
+				4C5BE7201A03A59400F574F7 /* EventViewCell.swift in Sources */,
+				4C38C4F419EFD43200E6BA05 /* ViewController.swift in Sources */,
+				4C3AADC51A162C1E000DB1E8 /* MapViewController.swift in Sources */,
+				4C28A7C61A058A4C006257FA /* EventStatsView.swift in Sources */,
+				4C2A949A1A04004600B7B86D /* TimetablerStructures.swift in Sources */,
+				4CDA22D219FEA898007E962F /* LoginViewController.swift in Sources */,
+				4C38C4EF19EFD43200E6BA05 /* AppDelegate.swift in Sources */,
+				4C69EA701A01667A00D6C385 /* TimetablerNavigationViewController.swift in Sources */,
+				4CCA850B1A067C48001EF6F5 /* Ionicon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C38C4FD19EFD43200E6BA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C38C50819EFD43200E6BA05 /* TimetablerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C38C50319EFD43200E6BA05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C38C4E819EFD43200E6BA05 /* Timetabler */;
+			targetProxy = 4C38C50219EFD43200E6BA05 /* PBXContainerItemProxy */;
+		};
+		4C80EFDE1A161257005703C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 4C80EFDD1A161257005703C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C38C50919EFD43200E6BA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "Daniel Koehler";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C38C50A19EFD43200E6BA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "Daniel Koehler";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C38C50C19EFD43200E6BA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Timetabler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C38C50D19EFD43200E6BA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Timetabler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4C38C50F19EFD43200E6BA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimetablerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timetabler.app/Timetabler";
+			};
+			name = Debug;
+		};
+		4C38C51019EFD43200E6BA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimetablerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timetabler.app/Timetabler";
+			};
+			name = Release;
+		};
+		4C7DA8EA1A010EF30074EEDB /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e1aa2365-55ab-4a51-85c3-52b4f5c435b9";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = TestFlight;
+		};
+		4C7DA8EB1A010EF30074EEDB /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Timetabler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = TestFlight;
+		};
+		4C7DA8EC1A010EF30074EEDB /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimetablerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timetabler.app/Timetabler";
+			};
+			name = TestFlight;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C38C4E419EFD43100E6BA05 /* Build configuration list for PBXProject "Timetabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C38C50919EFD43200E6BA05 /* Debug */,
+				4C38C50A19EFD43200E6BA05 /* Release */,
+				4C7DA8EA1A010EF30074EEDB /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C38C50B19EFD43200E6BA05 /* Build configuration list for PBXNativeTarget "Timetabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C38C50C19EFD43200E6BA05 /* Debug */,
+				4C38C50D19EFD43200E6BA05 /* Release */,
+				4C7DA8EB1A010EF30074EEDB /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C38C50E19EFD43200E6BA05 /* Build configuration list for PBXNativeTarget "TimetablerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C38C50F19EFD43200E6BA05 /* Debug */,
+				4C38C51019EFD43200E6BA05 /* Release */,
+				4C7DA8EC1A010EF30074EEDB /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C38C4E119EFD43100E6BA05 /* Project object */;
+}
