@@ -1,7 +1,7 @@
 Timetabler
 ==========
 
-A simple iOS timetable app using Cardiff Universities WebCal timetable endpoint. 
+A simple iOS timetable app using Cardiff University's WebCal timetable endpoint. 
 
 ###Main View
 
